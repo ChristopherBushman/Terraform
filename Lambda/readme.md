@@ -6,5 +6,5 @@ These two lambda functions start and stop the EC2 servers at the given times tha
 
 ## Cron Paramaters
 #Scheduling Paramaters for the rules that 'Start' and 'Stop' the EC2 instances.
--**Start: 0 0 ? * 6 * (Every Friday at 00:00:00 GMT)
--**Stop: 0 0 ? * 2 * (Every Monday at 00:00:00 GMT)
+- **Start: 0 0 ? * 6 * (Every Friday at 00:00:00 GMT)
+- **Stop: 0 0 ? * 2 * (Every Monday at 00:00:00 GMT)
